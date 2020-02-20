@@ -7,6 +7,7 @@ module.exports = {
     filename: '[name].[hash].bundle.js',
     path: path.join(__dirname, 'dist')
   },
+  devtool: 'source-map',
   devServer: {
     port: 4200
   },
